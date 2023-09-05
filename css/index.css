@@ -1,0 +1,65 @@
+.container{
+    margin-top: 110px;
+}
+
+.row {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    display: flex;
+    align-items: start;
+    font-size: 20px;
+}
+
+.btn-cadastro{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(107, 67, 199);
+}
+
+.btn-cadastro:hover{
+    background-color: rgb(59, 23, 144);
+    transition: 0.5s;
+}
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.content-table thead tr {
+    background-color: rgb(107, 67, 199);
+    color: rgb(247, 248, 249);
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: rgb(242, 235, 250);
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid rgb(107, 67, 199);
+}
