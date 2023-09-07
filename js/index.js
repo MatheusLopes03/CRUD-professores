@@ -88,7 +88,7 @@ document.querySelector("#professor-list").addEventListener("click", (e) => {
 });
 
 
-
+/*
 const formatarSalario = document.querySelector("#salario");
 
 const formatter = new Intl.NumberFormat("pt-BR", {
@@ -98,3 +98,4 @@ const formatter = new Intl.NumberFormat("pt-BR", {
 });
 
 currency.innerHTML = formatter.format(formatarSalario);
+*/

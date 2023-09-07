@@ -6,10 +6,12 @@
 }
 
 body {
-    height: 150vh;
+    height: 100vh;
     color: white;
-    background-image: url("/assets/background.gif");
-    backdrop-filter: blur(10px);
+    background-image: url("/assets/school-classroom-with-chairsdesks-chalkboard.jpg");
+    backdrop-filter: blur(6px);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
