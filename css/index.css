@@ -7,18 +7,82 @@
 
 body {
     height: 100vh;
-    color: white;
-    background-image: url("/assets/school-classroom-with-chairsdesks-chalkboard.jpg");
-    backdrop-filter: blur(6px);
+    color: rgb(244, 230, 248);
+    background-image: url(/assets/backgournd-image.jpg);
+    backdrop-filter: blur(9px);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1 {
+    color: rgb(250, 233, 254);
     padding-top: 70px;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .table-striped>thead>tr:nth-child(odd)>td,
 .table-striped>thead>tr:nth-child(odd)>th {
-    background-color: #141515;
+    background-color: rgb(196, 40, 235);
+}
+
+.table > thead {
+    vertical-align: bottom;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0px;
+}
+* {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+folha de estilo do user agent
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table-dark {
+    --bs-table-color: #fff;
+    --bs-table-bg: #ce92de;
+    --bs-table-border-color: #ce92de;
+    --bs-table-striped-bg: #af71c0;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #8d519d;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #8d519d;
+    --bs-table-hover-color: #fff;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}
+
+
+table{
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.6);
+}
+
+#nomeProfessor,
+#emailProfessor,
+#salario,
+#dataAdmissao{
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btn-success{
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.6);
+    --bs-btn-bg: rgb(196, 40, 235);
+    --bs-btn-border-color: rgb(196, 40, 235);
+    --bs-btn-hover-border-color: rgb(157, 14, 193);
+    --bs-btn-active-border-color: #6a036e;
+    --bs-btn-hover-bg: rgb(157, 14, 193);
+    --bs-btn-active-bg: #6a036e;
+}
+
+.btn-warning{
+    --bs-btn-hover-bg: #ae860d;
+    --bs-btn-hover-border-color: #ae860d;
 }

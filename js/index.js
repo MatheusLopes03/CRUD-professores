@@ -49,7 +49,7 @@ document.querySelector("#professor-form").addEventListener("submit", (e) => {
             `;
             list.appendChild(row);
             linhaSelecionada = null;
-            showAlert("Professor adcionado", "sucess");
+            showAlert("Professor adcionado", "success");
         } 
         else {
             linhaSelecionada.children[0].textContent = nomeProfessor;
@@ -87,15 +87,3 @@ document.querySelector("#professor-list").addEventListener("click", (e) => {
     }
 });
 
-
-/*
-const formatarSalario = document.querySelector("#salario");
-
-const formatter = new Intl.NumberFormat("pt-BR", {
-    style: "salario",
-    salario: "BRL",
-    minimumFractionDigits: 2,
-});
-
-currency.innerHTML = formatter.format(formatarSalario);
-*/
